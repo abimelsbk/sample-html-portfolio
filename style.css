@@ -1,0 +1,196 @@
+:root {
+  --primary: #6a00f4;
+  --secondary: #ff4ecd;
+  --background: #f8f8ff;
+  --text: #2b2b2b;
+  --card-bg: #ffffff;
+  --hover: #490099;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  padding: 30px 15px;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: var(--primary);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 20px var(--shadow);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  margin: 0 12px; 
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+header nav a:hover {
+  background-color: var(--secondary);
+}
+
+/* Section Cards */
+section {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  box-shadow: 0 6px 16px var(--shadow);
+}
+
+section h2 {
+  color: var(--primary);
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 4px solid var(--secondary);
+  width: 120px;
+}
+
+/* Skills Section */
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+ul li {
+  background: var(--secondary);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* Projects Section */
+article {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+article h3 {
+  color: var(--secondary);
+  margin-bottom: 5px;
+}
+
+article p {
+  margin-bottom: 5px;
+}
+
+article a {
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+article a:hover {
+  color: var(--hover);
+  text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: var(--hover);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 16px;
+  margin-top: 50px;
+  box-shadow: 0 -4px 16px var(--shadow);
+}
+
+footer a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 6px;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,131 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9fb;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: #e315de;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #6a006f;
+  margin-bottom: 20px;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background-color: #f7e7f7;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  color: #6a006f;
+  font-weight: bold;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+article h3 {
+  color: #e315de;
+}
+
+a {
+  color: #6a006f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #e315de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6a006f;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #6a006f;
+  color: white;
+  border-radius: 12px;
+}
+
+footer a {
+  color: #f7e7f7;
+  margin: 0 8px;
+}
